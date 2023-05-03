@@ -246,11 +246,20 @@ section {
     .pricing-table {
         height: fit-content;
         display: flex;
-        align-items: center;
-        justify-content: center;
         gap: 3.2rem;
         margin-inline: auto;
         width: fit-content;
+    }
+
+    section.essentials,
+    section.enterprise {
+        margin: 0;
+        margin-top: 1.7rem;
+    }
+
+    section.essentials .inner,
+    section.enterprise .inner {
+        height: 100%;
     }
 
 }
